@@ -1,0 +1,10 @@
+{
+  "env": {
+    "browser": true
+  },
+  "plugins": ["unicorn"],
+  "rules": {
+    "unicorn/no-console-spaces": "error", 
+    "unicorn/no-document-cookie": "error"
+  }
+}
